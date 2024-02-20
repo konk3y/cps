@@ -1,0 +1,92 @@
+@font-face {
+    font-family: ttk;
+    src: url(fonts/TTLakes-DemiBold.ttf);
+}
+
+@font-face {
+    font-family: ttklights;
+    src: url(fonts/TTLakesCondensed-Medium.ttf);
+}
+
+body{
+    margin: 0;
+    width: 320px;
+    height: 597px;
+    background-color: #F8F8F8;
+}
+header{
+    height: 88px;
+    background-color: #FFFFFF;
+}
+
+.header-line{
+    padding-top: 19px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-body{
+    display: flex;
+    align-items: center;
+}
+
+.main-divider{
+    padding-top: 20px;
+}
+
+.main-title{
+    padding-left: 16px;
+    font-family: ttk;
+    padding-top: 20px;
+    font-size:28px;
+    font-weight: 288;
+}
+
+.menu {
+    padding: 20px;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+  
+  }
+
+  .menu::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /*Сделать эффект наведения*/
+  .menu-item {
+    font-family: ttklights;
+    color: #7E7E82;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: solid 2px #B8FFEC;
+    text-decoration: none;
+  }
+  
+  .main-about{
+    font-size: 14px;
+    padding-left: 16px;
+    font-family: ttklights;
+    color: #1B1C21;
+  }
+
+  .main-footer{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .readmore {
+    font-size: 16px;
+    font-family: ttk;
+    text-decoration: none;
+    padding: 3px;
+    padding-bottom: 8px;
+  }
