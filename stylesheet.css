@@ -16,9 +16,9 @@ body{
     font-size: 14px;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 320px) {
     body {
-        width: 480px;
+        width: 320px;
     }
 }
 
@@ -39,7 +39,7 @@ header{
 }
 
 
-@media (min-width: 480px) {
+@media (min-width: 320px) {
   header {
       height: 100px;
   }
@@ -59,7 +59,7 @@ header{
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1120px) {
   header {
       height: 140px;
   }
@@ -120,7 +120,7 @@ header{
     font-size: 14px;
   }
 
-  @media (min-width: 480px) {
+  @media (min-width: 320px) {
     .menu-item {
         padding: 15px;
         font-size: 16px;
@@ -134,7 +134,7 @@ header{
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1120px) {
     .menu-item {
         padding: 25px;
         font-size: 24px;
