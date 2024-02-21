@@ -13,10 +13,60 @@ body{
     width: 320px;
     height: 597px;
     background-color: #F8F8F8;
+    font-size: 14px;
+}
+
+@media (min-width: 480px) {
+    body {
+        width: 480px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        width: 768px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        width: 1024px;
+    }
 }
 header{
     height: 88px;
     background-color: #FFFFFF;
+}
+
+
+@media (min-width: 480px) {
+  header {
+      height: 100px;
+  }
+
+  .main-title {
+      font-size: 36px;
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+      height: 120px;
+  }
+
+  .main-title {
+      font-size: 48px;
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+      height: 140px;
+  }
+
+  .main-title {
+      font-size: 60px;
+  }
 }
 
 .header-line{
@@ -67,7 +117,29 @@ header{
     border-radius: 5px;
     border: solid 2px #B8FFEC;
     text-decoration: none;
+    font-size: 14px;
   }
+
+  @media (min-width: 480px) {
+    .menu-item {
+        padding: 15px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-item {
+        padding: 20px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .menu-item {
+        padding: 25px;
+        font-size: 24px;
+    }
+}
   
   .main-about{
     font-size: 14px;
@@ -90,3 +162,4 @@ header{
     padding: 3px;
     padding-bottom: 8px;
   }
+
